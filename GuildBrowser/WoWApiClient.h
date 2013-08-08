@@ -21,5 +21,5 @@ typedef void (^ErrorBlock)(NSError *error);
                  onRealm:(NSString *)realmName
                  success:(CharacterBlock)successBlock
                    error:(ErrorBlock)errorBlock;
-
+  
 @end
